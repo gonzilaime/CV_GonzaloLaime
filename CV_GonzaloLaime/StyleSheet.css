@@ -1,0 +1,48 @@
+﻿body {
+
+}
+
+#margen {
+    background: cadetblue;
+    border-style: solid;
+    border-color: cadetblue;
+    width: 22%;
+    height: 1326px;
+    text-align:center;
+}
+
+h2 {
+    margin-top: 38px;
+    color: white;
+}
+
+hr {
+    background: ghostwhite;
+    padding-bottom: 1px;
+}
+
+#img {
+    width: 300px;
+    margin-left: 9px;
+}
+
+span {
+    display: inline-block;
+    width: 40%;
+}
+
+#subt {
+    margin-left: 600px;
+    margin-top: -1300px;
+}
+
+a.nav-link:hover {
+    transition: 1.5s;
+    background: darkblue;
+}
+
+#subir {
+    padding-left: 700px;
+    position: fixed;
+    color: black;
+}

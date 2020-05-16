@@ -1,0 +1,71 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="index.master.vb" Inherits="CV_GonzaloLaime.index" %>
+
+<!DOCTYPE html>
+<html style="backg:lightblue;">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>CV Gonzalo Laime</title>
+    <link rel="icon" href="https://img.icons8.com/cotton/64/000000/happy-file.png" sizes="16x16 32x32" type="image/png"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="StyleSheet.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary" id="nav">
+  <a class="navbar-brand" href="#" style="color:whitesmoke;">Curriculum Vitae</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#perfil">Perfil</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#formacion">Formación académica</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#experiencia">Experiencia laboral</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#conocimientos">Conocimientos</a>
+      </li>
+        <li class="nav-item active">
+        <a href="#nav" id="subir"><h4>Ir arriba</h4></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+     <span id="margen">
+            <h2>Gonzalo Martin Laime</h2>
+            <hr />
+             <div>
+                <image id="img" src="img/fotoCV.png"></image>
+             </div>
+            <hr />
+            <br />
+            <div id="datos">
+                <p><b>Teléfono celular:</b><br /> 1169099444</p>
+                <p><b>Teléfono alternativo:</b><br /> 4462-3224</p>
+                <p><b>Correo:</b><br /> gonzalo.laime@hotmail.com</p>
+                <p><b>Linkedin:</b><br /> Gonzalo Martin Laime</p><br />
+                <hr />
+                <p><b>Nacimiento:</b><br /> 21/12/1996 (23 años)</p>
+                <p><b>Nacionalidad:</b><br /> Argentina</p><br />
+                <p><b>Zona de residencia:</b><br /> Villa Lugano</p>
+                <p><b>Estado civil:</b><br /> Soltero</p>
+                <p><b>DNI:</b><br /> 40.390.818</p>
+                <p><b>CUIL:</b><br /> 20-40.390.818</p>
+            </div>
+        </span>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
